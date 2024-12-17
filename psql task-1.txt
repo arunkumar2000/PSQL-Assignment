@@ -40,4 +40,4 @@ select * from city where country_id not between 85 and 100;
 9)limit
 select * from city where city like '%a%' limit 5;
 10)offset
- select * from city where city like '%a%' offset 5 limit 5;
+ select * from city where city like '%a%' limit 5 offset 5 ;
